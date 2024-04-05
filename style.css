@@ -3,7 +3,14 @@ body{
     padding: 0;
     background-color: #FDF7E4;
 }
-
+@media (max-width:600px){
+    .container{
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(9 , 400px) ;
+    position: relative;
+    top:80px;
+}
+}
 .nav-bar{
     display: grid;
     width: 100%;
